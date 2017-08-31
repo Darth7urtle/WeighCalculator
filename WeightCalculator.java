@@ -1,0 +1,19 @@
+public class WeightCalculator
+{
+	public static void main(String[] args)
+	{
+		
+		double weight = Double.parseDouble(args[0]);
+		double mars = 0.38;
+		double jupiter = 2.36;
+		double venus = 0.91;
+		double saturn = 1.06;
+		
+		System.out.println("Your weight on...");
+		System.out.println("mars is " + weight*mars);
+		System.out.println("jupiter is " + weight*jupiter);
+		System.out.println("venus is " + weight*venus);
+		System.out.println("saturn is " + weight*saturn + ".");
+		System.out.println("Thanks for using my program! I hope it wasn't too buggy!");
+	}
+}
